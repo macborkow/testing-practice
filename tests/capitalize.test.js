@@ -1,5 +1,5 @@
 import { expect, test } from '@jest/globals';
-import capitalize from './capitalize';
+import capitalize from '../src/capitalize';
 
 test('capitalize a single word', () => {
   expect(capitalize('jerry')).toBe('Jerry');

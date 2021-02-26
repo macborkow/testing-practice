@@ -1,5 +1,5 @@
 import { expect, test } from '@jest/globals';
-import reverseString from './reverseString';
+import reverseString from '../src/reverseString';
 
 test('reverse a single word', () => {
   expect(reverseString('jerry')).toBe('yrrej');
